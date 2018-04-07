@@ -1,4 +1,4 @@
-# RomanToArabic
+# RomanToArabic [![Build Status](https://travis-ci.org/Tecnologer/RomanToArabic.svg?branch=master)](https://travis-ci.org/Tecnologer/RomanToArabic)
 Hay dos funciones:
 1. **Romano a Arabigo**
 2. **Arabigo a Romano**
