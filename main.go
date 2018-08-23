@@ -32,7 +32,7 @@ func main() {
 			}
 		}
 
-		fmt.Printf("%s es igual a %d", strings.ToUpper(romanInput), ParseRoman(romanInput))
+		fmt.Printf("%s es igual a %d\n", strings.ToUpper(romanInput), ParseRoman(romanInput))
 	case 2:
 		var arabicInput int
 		fmt.Print("Escribe el numero arabigo correcto (mayor a 0 y menor a 4000): ")
@@ -40,7 +40,7 @@ func main() {
 			_, err = fmt.Scan(&arabicInput)
 		}
 
-		fmt.Printf("%d es igual a %s", arabicInput, ParseArabic(arabicInput))
+		fmt.Printf("%d es igual a %s\n", arabicInput, ParseArabic(arabicInput))
 	}
 	// var arabicInput = 3999
 	// fmt.Printf("%d es igual a %s", arabicInput, ParseArabic(arabicInput))
