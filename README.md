@@ -21,3 +21,15 @@ Hay dos funciones:
 
 * Entrada: `1995` <br>
 * Salida: **MCMXCV**
+
+## Ejecutar desde codigo
+
+1. Descargar codigo: `go get github.com/tecnologer/romantoarabic`<br>
+    Con esto tambien quedara disponible para usarse en otros proyestos.
+2. Abrir la carpeta del proyecto: `cd $GOPATH/github.com/tecnologer/romantoarabic`
+3. Ejecutar el codigo: `go run main.go`
+
+## Ejecutar desde binarios
+Puede ejecutar el binario correcpondiente al sistema operativo que este utilizando. Si no esta disponible para su sistema, puede crearlo con `go build`.
+
+
